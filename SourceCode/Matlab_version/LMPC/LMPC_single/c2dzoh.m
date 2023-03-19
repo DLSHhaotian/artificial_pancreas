@@ -1,0 +1,11 @@
+function [Abar,Bbar]=c2dzoh(A,B,Ts)
+
+% Syntax: [Abar,Bbar]=c2dzoh(A,B,Ts)
+%         A: linear state matrix
+%         B: linear input matrix
+%         Ts: sampling time
+[nx,nu]=size(B);
+M = [A B; zeros(nu,nx) zeros(nu,nu)];
+Phi = expm(M*Ts);
+Abar = Phi(1:nx,1:nx);
+Bbar = Phi(1:nx,nx+1:nx+nu);

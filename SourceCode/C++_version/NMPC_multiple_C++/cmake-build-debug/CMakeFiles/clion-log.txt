@@ -1,0 +1,6 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/dlsh/CasADi_C++/CasADi_C_test_eigen_multiple
+-- Found CasADi include dir: /usr/local/include;/usr/local/include/casadi
+-- Found CasADi libs: /usr/local/lib/libcasadi.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dlsh/CasADi_C++/CasADi_C_test_eigen_multiple/cmake-build-debug
