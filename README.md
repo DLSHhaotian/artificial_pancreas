@@ -1,4 +1,4 @@
-# artificial_pancreas
+# artificial pancreas
 Optimization based Control Algorithms for the Artificial Pancreas and Insulin Dosing System
 - mathmatical model
     - simulation model
